@@ -10,17 +10,22 @@
        <h1>
         site için öneriler alim
        </h1>
-       <br>
-       <p id="para1">paragraf1</p>
-       <button onclick="tik()">tikla</button>
-       <input type="text">
-       <script>
-        function tik(){
-            var element = document.getElementById("para1");
-            element.style.color = "red";
-            
-        }
+       <input type="text" id="myInput">
+    <button onclick="myFunction()">Tiklayiniz</button>
+    <p id="myP">hello</p>
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myInput").value;
+            var element = document.getElementById("myP")
+            element.innerHTML = x
+        
+        
+      }
+    </script>
 
-       </script>
+       
+        
+
+       
     </body>
 </html>
