@@ -1,0 +1,45 @@
+
+
+#but{
+height: 30px;
+width: 350px;
+font-size: 18px;
+font-weight: bold;
+color: #fff;
+background: crimson;
+position: absolute;
+left: 820px;
+top: 500px;
+cursor: pointer;
+outline: none;
+}
+
+#but1{
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: crimson;
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    cursor: pointer;
+    outline: none;
+}
+
+.container{
+    background: url(heartbg.png);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+#h1{
+    color:crimson;
+    font-size: 70px;
+    width: 880px;
+    text-align: center;
+    position: absolute;
+    left: 300px;
+}
+

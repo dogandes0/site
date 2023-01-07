@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="devdate.css">
+    <style>
+        #but{
+            width: 60px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 id="h1">Can we hang out sometime?</h1>
+    <button id="but1">Yes,Sure</button>
+    <button id="but">Nooo</button>
+</div>
+
+
+    <script>
+
+        var sayac=0
+        var but=document.getElementById("but");
+
+        but.onmouseover=function(e) 
+        {
+            sayac++;
+            var xpos=parseInt(Math.random()*1000);
+            var ypos=parseInt(Math.random()*800);
+
+            but.style.left=xpos + "px";
+            but.style.top=ypos + "px";
+
+            
+        }
+
+    </script>
+</body>
+</html>
